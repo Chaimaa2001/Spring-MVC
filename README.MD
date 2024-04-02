@@ -8,3 +8,5 @@
 <img src="Captures/img_3.png"/>
 <h3> Approche Rendu coté client</h3>
 <img src="Captures/img_4.png"/>
+<h3> VERSION AMELIORE</h3>
+<img src="Captures/img_5.png">
