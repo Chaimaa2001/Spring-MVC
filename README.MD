@@ -10,3 +10,7 @@
 <img src="Captures/img_4.png"/>
 <h3> VERSION AMELIORE</h3>
 <img src="Captures/img_5.png">
+<h3>Ajouter un patient</h3>
+<img src="Captures/img_6.png">
+<h3>Modifier un patient</h3>
+<img src="Captures/img_7.png">
