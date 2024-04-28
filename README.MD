@@ -30,6 +30,13 @@
 <img src="Captures/img_14.png">
 <h3>les tables sont creer sur mysql</h3>
 <img src="Captures/img_15.png">
+<h3>Spring Security avec UserDetailsService</h3></h3>
+<img src="Captures/img_16.png">
+<h3>Creation de nouvelle entities pour personnaliser Les roles et les users</h3>
+<img src="Captures/img_16.png">
+<h3>Donner le role admin a user1</h3>
+<img src="Captures/img_17.png">
+
 
 
 
