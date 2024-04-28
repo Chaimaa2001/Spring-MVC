@@ -22,4 +22,14 @@
 <img src="Captures/img_8.png">
 <h3>Escalation lorsque le user qui n'a pas le role ADMIN on affiche notAuthorized</h3>
 <img src="Captures/img_11.png">
+<h3>Spring security avec JDBCUserDetailsManager</h3>
+<img src="Captures/img_13.png">
+<h3>Creation des TAble Users et Authorities</h3>
+<img src="Captures/img_12.png">
+<h3>Parametrage du fichier application.properties</h3>
+<img src="Captures/img_14.png">
+<h3>les tables sont creer sur mysql</h3>
+<img src="Captures/img_15.png">
+
+
 
