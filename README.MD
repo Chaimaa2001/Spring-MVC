@@ -20,7 +20,7 @@
 <img src="Captures/img_9.png">
 <h3>Ajout d'un formulaire d'authentification personnalisé avec InMemoryUser</h3>
 <img src="Captures/img_8.png">
-<h3>Escalation lorsque le user qui n'a pas le role ADMIN on affiche notAuthorized</h3>
+<h3>Escalation lorsque le user qui n'a pas le role ADMIN essaye de faire des modification en utilisant le endPoint de l'admin on affiche notAuthorized</h3>
 <img src="Captures/img_11.png">
 <h3>Spring security avec JDBCUserDetailsManager</h3>
 <img src="Captures/img_13.png">
