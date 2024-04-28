@@ -14,3 +14,12 @@
 <img src="Captures/img_6.png">
 <h3>Modifier un patient</h3>
 <img src="Captures/img_7.png">
+<h3>Cacher la suppression et la modification pour les users qui n'ont pas le role admin</h3>
+<img src="Captures/img_10.png">
+<h3>Donner le privilège aux admins de modifier ou bien supprimer les patients</h3>
+<img src="Captures/img_9.png">
+<h3>Ajout d'un formulaire d'authentification personnalisé avec InMemoryUser</h3>
+<img src="Captures/img_8.png">
+<h3>Escalation lorsque le user qui n'a pas le role ADMIN on affiche notAuthorized</h3>
+<img src="Captures/img_11.png">
+

@@ -15,7 +15,7 @@
     <div class="card">
         <div class="card-header">Liste des Patients</div>
         <div class="card-body">
-            <form method="get" th:action="@{index}">
+            <form method="get" th:action="@{/user/index}">
                 <label>Key Word</label>
                 <input type="text" name="keyword" th:value="${keyword}">
                 <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
@@ -37,16 +37,16 @@
                     <td th:text="${p.dateNaissance}"></td>
                     <td th:text="${p.malade}"></td>
                     <td th:text="${p.score}"></td>
-                    <td >
+                    <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
                         <a onclick="javascript:return confirm('Etes vous sure ?')" class="btn btn-danger"
-                        th:href="@{delete(id=${p.id},keyword=${keyword},page=${currentPage})}"
+                        th:href="@{/admin/deletePatient(id=${p.id},keyword=${keyword},page=${currentPage})}"
                        ><i class="bi bi-trash"></i>
                         </a>
                     </td>
-                    <td >
+                    <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
                         <a  class="btn btn-success"
-                           th:href="@{editPatient(id=${p.id},keyword=${keyword},page=${currentPage})}"
-                        >edit
+                           th:href="@{/admin/editPatient(id=${p.id},keyword=${keyword},page=${currentPage})}"
+                        ><i class="bi bi-pen"></i>
                         </a>
                     </td>
                 </tr>
@@ -57,7 +57,7 @@
                 <li th:each="page,status:${pages}">
                     <a th:class="${status.index==currentPage?'btn btn-primary ms-1':'btn btn-outline-primary ms-1'}"
                        th:text="${1+status.index}"
-                       th:href="@{index(page=${status.index},keyword=${keyword})}">
+                       th:href="@{/user/index(page=${status.index},keyword=${keyword})}">
 
                     </a>
                 </li>
